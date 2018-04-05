@@ -52,6 +52,9 @@
 		070F88023ABB4DA9A2BBA1E9 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC304C2793246359F6AD574 /* libRNVectorIcons.a */; };
 		743B82A8D8D14C349F3DCF13 /* libRNI18n.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34663E4637F74E8D8F74388B /* libRNI18n.a */; };
 		FB5F04934BA2430C94F08B11 /* libRNI18n-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D4C428574C4AF68155ABAE /* libRNI18n-tvOS.a */; };
+		B7BF8EDE258A4037B86D877C /* libRNFS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A99919C08049B5958579B7 /* libRNFS.a */; };
+		642A032BE8E44FE29F60CAF0 /* libreact-native-media-kit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7EBC4AA9E14E55A63F2A1C /* libreact-native-media-kit.a */; };
+		E074C1B3671A48FC90DF0DB7 /* libRNTrackPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66698B0D2297414FA8A2AA19 /* libRNTrackPlayer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -320,6 +323,12 @@
 		8DD11F05866C47F1BF3D4328 /* RNI18n.xcodeproj */ = {isa = PBXFileReference; name = "RNI18n.xcodeproj"; path = "../node_modules/react-native-i18n/ios/RNI18n.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		34663E4637F74E8D8F74388B /* libRNI18n.a */ = {isa = PBXFileReference; name = "libRNI18n.a"; path = "libRNI18n.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		30D4C428574C4AF68155ABAE /* libRNI18n-tvOS.a */ = {isa = PBXFileReference; name = "libRNI18n-tvOS.a"; path = "libRNI18n-tvOS.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		BB4D00E7BBF94468B98E7636 /* RNFS.xcodeproj */ = {isa = PBXFileReference; name = "RNFS.xcodeproj"; path = "../node_modules/react-native-fs/RNFS.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		76A99919C08049B5958579B7 /* libRNFS.a */ = {isa = PBXFileReference; name = "libRNFS.a"; path = "libRNFS.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		42249CE02A8D461FAFB62D1A /* react-native-media-kit.xcodeproj */ = {isa = PBXFileReference; name = "react-native-media-kit.xcodeproj"; path = "../node_modules/react-native-media-kit/ios/react-native-media-kit.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		9E7EBC4AA9E14E55A63F2A1C /* libreact-native-media-kit.a */ = {isa = PBXFileReference; name = "libreact-native-media-kit.a"; path = "libreact-native-media-kit.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		48049D28A37945A4BC710EA0 /* RNTrackPlayer.xcodeproj */ = {isa = PBXFileReference; name = "RNTrackPlayer.xcodeproj"; path = "../node_modules/react-native-track-player/ios/RNTrackPlayer.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		66698B0D2297414FA8A2AA19 /* libRNTrackPlayer.a */ = {isa = PBXFileReference; name = "libRNTrackPlayer.a"; path = "libRNTrackPlayer.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -351,6 +360,9 @@
 				473024B61B0840E898F011F3 /* libMusicControl.a in Frameworks */,
 				070F88023ABB4DA9A2BBA1E9 /* libRNVectorIcons.a in Frameworks */,
 				743B82A8D8D14C349F3DCF13 /* libRNI18n.a in Frameworks */,
+				B7BF8EDE258A4037B86D877C /* libRNFS.a in Frameworks */,
+				642A032BE8E44FE29F60CAF0 /* libreact-native-media-kit.a in Frameworks */,
+				E074C1B3671A48FC90DF0DB7 /* libRNTrackPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +545,9 @@
 				BC59BE55A4F24940AA1DEC48 /* MusicControl.xcodeproj */,
 				266F76F6B43B42C6BA55172B /* RNVectorIcons.xcodeproj */,
 				8DD11F05866C47F1BF3D4328 /* RNI18n.xcodeproj */,
+				BB4D00E7BBF94468B98E7636 /* RNFS.xcodeproj */,
+				42249CE02A8D461FAFB62D1A /* react-native-media-kit.xcodeproj */,
+				48049D28A37945A4BC710EA0 /* RNTrackPlayer.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1139,12 +1154,18 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-music-control/ios",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-i18n/ios",
+					"$(SRCROOT)/../node_modules/react-native-fs/**",
+					"$(SRCROOT)/../node_modules/react-native-media-kit/ios/react-native-media-kit",
+					"$(SRCROOT)/../node_modules/react-native-track-player/ios/RNTrackPlayer/**",
 				);
 			};
 			name = Debug;
@@ -1170,12 +1191,18 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-music-control/ios",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-i18n/ios",
+					"$(SRCROOT)/../node_modules/react-native-fs/**",
+					"$(SRCROOT)/../node_modules/react-native-media-kit/ios/react-native-media-kit",
+					"$(SRCROOT)/../node_modules/react-native-track-player/ios/RNTrackPlayer/**",
 				);
 			};
 			name = Release;
@@ -1200,6 +1227,9 @@
 					"$(SRCROOT)/../node_modules/react-native-music-control/ios",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-i18n/ios",
+					"$(SRCROOT)/../node_modules/react-native-fs/**",
+					"$(SRCROOT)/../node_modules/react-native-media-kit/ios/react-native-media-kit",
+					"$(SRCROOT)/../node_modules/react-native-track-player/ios/RNTrackPlayer/**",
 				);
 			};
 			name = Debug;
@@ -1223,6 +1253,9 @@
 					"$(SRCROOT)/../node_modules/react-native-music-control/ios",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-i18n/ios",
+					"$(SRCROOT)/../node_modules/react-native-fs/**",
+					"$(SRCROOT)/../node_modules/react-native-media-kit/ios/react-native-media-kit",
+					"$(SRCROOT)/../node_modules/react-native-track-player/ios/RNTrackPlayer/**",
 				);
 			};
 			name = Release;
@@ -1257,12 +1290,18 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-music-control/ios",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-i18n/ios",
+					"$(SRCROOT)/../node_modules/react-native-fs/**",
+					"$(SRCROOT)/../node_modules/react-native-media-kit/ios/react-native-media-kit",
+					"$(SRCROOT)/../node_modules/react-native-track-player/ios/RNTrackPlayer/**",
 				);
 			};
 			name = Debug;
@@ -1297,12 +1336,18 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-music-control/ios",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-i18n/ios",
+					"$(SRCROOT)/../node_modules/react-native-fs/**",
+					"$(SRCROOT)/../node_modules/react-native-media-kit/ios/react-native-media-kit",
+					"$(SRCROOT)/../node_modules/react-native-track-player/ios/RNTrackPlayer/**",
 				);
 			};
 			name = Release;
@@ -1332,6 +1377,9 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Debug;
@@ -1356,6 +1404,9 @@
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",

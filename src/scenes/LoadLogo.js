@@ -26,12 +26,12 @@ export default class MainScreen extends Component {
 	render() {
 		return(
 			<View style={styles.container}>
-				<Icon type='font-awesome' name='headphones' size={50} color='#f00' />
-				<Text style={{ color: '#f00' }}>- Music -</Text>
+				<Icon type='font-awesome' name='headphones' size={50} color='#169f85' />
+				<Text style={{ color: '#169f85' }}>- Music App -</Text>
 			</View>
 		)
 	}
-} 
+}
 
 var styles = StyleSheet.create({
 	container: {

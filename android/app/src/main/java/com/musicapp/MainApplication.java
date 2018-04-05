@@ -3,6 +3,8 @@ package com.musicapp;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import guichaguri.trackplayer.TrackPlayer;
+import com.rnfs.RNFSPackage;
 import com.AlexanderZaytsev.RNI18n.RNI18nPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.tanguyantoine.react.MusicControl;
@@ -26,6 +28,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new TrackPlayer(),
+            new RNFSPackage(),
             new RNI18nPackage(),
             new VectorIconsPackage(),
             new MusicControl()
