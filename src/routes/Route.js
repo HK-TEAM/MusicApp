@@ -5,15 +5,15 @@ import {addNavigationHelpers, StackNavigator, TabNavigator} from "react-navigati
 // import PropTypes from 'prop-types';
 import HomeScreen from "../scenes/main/MainScreen";
 import LoadLogoScreen from "../scenes/LoadLogo";
+import Player from '../scenes/main/Player'
 
 export const RootStack = StackNavigator({
         Main: { screen: HomeScreen },
-
-        LoadLogo: { screen: LoadLogoScreen }
+        LoadLogo: { screen: LoadLogoScreen },
+        Player: { screen: Player }
     },
     {
         navigationOptions: {header: null},
         initialRouteName: 'LoadLogo',
     }
 );
-
